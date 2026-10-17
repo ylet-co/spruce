@@ -1,0 +1,64 @@
+__sd("data/apps/v/vectorcraft.json",{
+  "id": "vectorcraft",
+  "name": "VectorCraft",
+  "tagline": "Vector illustration, reimagined in pure Rust",
+  "blurb": "The pen, panels and shortcuts working illustrators expect, in a native app that keeps up with you.",
+  "description": "VectorCraft provides vector illustration with native speed and mathematical precision.\n\nIncludes bezier pen tool, path operations, gradient meshes, typography, SVG export, and an intuitive UI that working illustrators already know.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/vectorcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/vectorcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/vectorcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Graphics & Design"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "vector",
+    "illustration",
+    "svg",
+    "pen tool",
+    "paths",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/vectorcraft",
+  "homepage": "https://getartcraft.com/apps/vectorcraft",
+  "stars": 1850,
+  "version": "0.3.5",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Illustrator",
+    "CorelDRAW",
+    "Affinity Designer"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/vectorcraft",
+      "command": "git clone https://github.com/storytold/vectorcraft.git && cd vectorcraft && cargo run --release",
+      "note": "Native Rust vector illustration."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});

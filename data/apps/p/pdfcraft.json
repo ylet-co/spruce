@@ -1,0 +1,67 @@
+{
+  "id": "pdfcraft",
+  "name": "PdfCraft",
+  "tagline": "The open-source PDF workbench",
+  "blurb": "Read, organize, combine, split and secure PDFs in a fast, native app written in Rust from the ground up.",
+  "description": "PdfCraft is the all-in-one PDF tool for everyday document needs.\n\nMerge documents, reorder and rotate pages, split PDFs, add passwords and redactions, fill forms, and annotate with pen or text without uploading sensitive documents to third-party web servers.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/pdfcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/pdfcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/pdfcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Office & Documents",
+    "Utilities"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "pdf",
+    "reader",
+    "merge",
+    "split",
+    "security",
+    "forms",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/pdfcraft",
+  "homepage": "https://getartcraft.com/apps/pdfcraft",
+  "stars": 1950,
+  "version": "0.4.1",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Acrobat Pro",
+    "PDF Expert",
+    "Nitro PDF",
+    "Smallpdf"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/pdfcraft",
+      "command": "git clone https://github.com/storytold/pdfcraft.git && cd pdfcraft && cargo run --release",
+      "note": "Fast local PDF editor and organizer."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+}

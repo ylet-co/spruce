@@ -1,0 +1,67 @@
+__sd("data/apps/c/cadcraft.json",{
+  "id": "cadcraft",
+  "name": "CADCraft",
+  "tagline": "Computer-aided design and drafting, reimagined in pure Rust",
+  "blurb": "The command line, object snaps, layers, dimensions, hatches, blocks and drawings you already know.",
+  "description": "CADCraft is a parametric 2D and 3D drafting suite built for mechanical designers and architects.\n\nIncludes DWG/DXF import and export, precise geometric constraints, coordinate input, block libraries, and support for automation via AI agents.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/cadcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/cadcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/cadcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Engineering",
+    "Graphics & Design"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "cad",
+    "drafting",
+    "dwg",
+    "dxf",
+    "mechanical",
+    "parametric",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/cadcraft",
+  "homepage": "https://getartcraft.com/apps/cadcraft",
+  "stars": 2700,
+  "version": "0.3.1",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Autodesk AutoCAD",
+    "SolidWorks",
+    "Autodesk Fusion 360",
+    "Rhino 3D"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/cadcraft",
+      "command": "git clone https://github.com/storytold/cadcraft.git && cd cadcraft && cargo run --release",
+      "note": "Native 2D/3D CAD in pure Rust."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});

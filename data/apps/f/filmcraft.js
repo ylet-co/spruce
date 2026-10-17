@@ -1,0 +1,64 @@
+__sd("data/apps/f/filmcraft.json",{
+  "id": "filmcraft",
+  "name": "FilmCraft",
+  "tagline": "Professional video editing, rebuilt from scratch in pure Rust",
+  "blurb": "Source and program monitors, a real timeline and every trim mode, in a native editor written in pure Rust — down to its own codecs.",
+  "description": "FilmCraft is a non-linear video editor written from scratch in pure Rust.\n\nFeaturing multi-track video and audio timeline, ripple/roll/slip/slide trim modes, color grading wheels, transitions, and native hardware-accelerated playback.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/filmcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/filmcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/filmcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Audio & Video"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "video editor",
+    "timeline",
+    "multitrack",
+    "trim",
+    "colour",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos"
+  ],
+  "repo": "https://github.com/storytold/filmcraft",
+  "homepage": "https://getartcraft.com/apps/filmcraft",
+  "stars": 3100,
+  "version": "0.2.8",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Premiere Pro",
+    "Final Cut Pro",
+    "DaVinci Resolve",
+    "Sony Vegas"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/filmcraft",
+      "command": "git clone https://github.com/storytold/filmcraft.git && cd filmcraft && cargo run --release",
+      "note": "Native Rust multi-track NLE."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});

@@ -1,0 +1,67 @@
+__sd("data/apps/d/designcraft.json",{
+  "id": "designcraft",
+  "name": "DesignCraft",
+  "tagline": "Page layout and publishing, rebuilt in pure Rust",
+  "blurb": "Spreads and parent pages, threaded stories, styles, swatches and text wrap in a native layout app with a professional paragraph composer.",
+  "description": "DesignCraft is built for publishing books, magazines, brochures and print layouts.\n\nFeatures master pages, baseline grids, CMYK swatches, OpenType font features, optical margin alignment, and print-ready PDF/X export.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/designcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/designcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/designcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Graphics & Design",
+    "Office & Documents"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "desktop publishing",
+    "page layout",
+    "print",
+    "magazines",
+    "books",
+    "typography",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/designcraft",
+  "homepage": "https://getartcraft.com/apps/designcraft",
+  "stars": 1400,
+  "version": "0.2.1",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe InDesign",
+    "QuarkXPress",
+    "Microsoft Publisher",
+    "Affinity Publisher"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/designcraft",
+      "command": "git clone https://github.com/storytold/designcraft.git && cd designcraft && cargo run --release",
+      "note": "Native desktop publishing in Rust."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});

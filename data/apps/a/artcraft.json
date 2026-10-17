@@ -1,0 +1,77 @@
+{
+  "id": "artcraft",
+  "name": "ArtCraft",
+  "tagline": "Controllable AI video and image generator for artists",
+  "blurb": "The open-source desktop app for generating AI video and images — built for artists who want real control. Runs locally on your machine.",
+  "description": "ArtCraft is the open-source desktop app for generating AI video and images — built for artists who want real control.\n\nEverything runs locally on your own files with support for macOS, Windows, Linux and Web. Drive generations via prompt, control nets, or automate with the CLI and MCP server.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/artcraft-icon.svg",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/og-image.png",
+      "thumb": "https://getartcraft.com/images/og-image.png"
+    }
+  ],
+  "categories": [
+    "Graphics & Design",
+    "Audio & Video"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "ai",
+    "video",
+    "image",
+    "generative",
+    "creative",
+    "rust",
+    "desktop"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold",
+  "homepage": "https://getartcraft.com",
+  "stars": 1250,
+  "version": "1.0.0",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Midjourney",
+    "Runway Gen-2",
+    "Pika Labs",
+    "Kling AI",
+    "Leonardo AI"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Get from GitHub",
+      "url": "https://github.com/storytold",
+      "command": "git clone https://github.com/storytold/artcraft.git",
+      "note": "Open-source and free to use."
+    },
+    {
+      "platform": "web",
+      "distro": "web",
+      "manager": "web",
+      "label": "Use in browser",
+      "url": "https://app.getartcraft.com/",
+      "command": null,
+      "note": "Runs directly in your browser tab."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+}

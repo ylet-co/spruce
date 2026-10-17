@@ -1,0 +1,62 @@
+__sd("data/apps/c/craft-launcher.json",{
+  "id": "craft-launcher",
+  "name": "Craft Launcher",
+  "tagline": "Install and update all thirteen Crafting Apps in one place",
+  "blurb": "The open-source manager from ArtCraft: keeps PhotoCraft, VectorCraft, FilmCraft and the suite up to date.",
+  "description": "Craft Launcher is the unified manager and installer for all 13 Crafting Apps by the ArtCraft team.\n\nDiscover new releases, install updates automatically, launch desktop tools or open browser WebAssembly editions with one tap.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/artcraft-icon.svg",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/og.jpg"
+    }
+  ],
+  "categories": [
+    "Utilities"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "launcher",
+    "installer",
+    "craft apps",
+    "updates",
+    "rust",
+    "desktop"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos"
+  ],
+  "repo": "https://github.com/storytold/craft-launcher",
+  "homepage": "https://getartcraft.com/apps",
+  "stars": 1550,
+  "version": "0.3.2",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Creative Cloud Desktop",
+    "Autodesk Desktop App"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Download Launcher Release",
+      "url": "https://github.com/storytold/craft-launcher/releases",
+      "command": "git clone https://github.com/storytold/craft-launcher.git && cd craft-launcher && cargo run --release",
+      "note": "Official open-source launcher from ArtCraft."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});

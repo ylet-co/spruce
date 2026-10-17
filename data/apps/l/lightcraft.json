@@ -1,0 +1,65 @@
+{
+  "id": "lightcraft",
+  "name": "LightCraft",
+  "tagline": "Your photos. Your pixels. Your machine.",
+  "blurb": "A fast photo library and non-destructive raw developer, written from scratch in pure Rust. No account, no cloud, no telemetry.",
+  "description": "LightCraft delivers a lightning-fast catalog and non-destructive RAW processing engine.\n\nIncludes exposure, highlights, shadows, curves, HSL color grading, sharpening, noise reduction, and lens profile corrections on your local library.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/lightcraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/lightcraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/lightcraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Graphics & Design"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "photography",
+    "raw",
+    "photo library",
+    "non-destructive",
+    "lightroom",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/lightcraft",
+  "homepage": "https://getartcraft.com/apps/lightcraft",
+  "stars": 1600,
+  "version": "0.3.0",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Lightroom",
+    "Capture One Pro",
+    "Apple Aperture",
+    "DxO PhotoLab"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/lightcraft",
+      "command": "git clone https://github.com/storytold/lightcraft.git && cd lightcraft && cargo run --release",
+      "note": "Non-destructive RAW photo development."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+}

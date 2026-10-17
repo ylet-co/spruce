@@ -1,0 +1,65 @@
+__sd("data/apps/p/photocraft.json",{
+  "id": "photocraft",
+  "name": "PhotoCraft",
+  "tagline": "The open-source image editor you already know how to use",
+  "blurb": "Layers, masks, adjustment layers, layer styles, type, vectors and brushes in a native app written entirely in Rust.",
+  "description": "PhotoCraft brings professional photo and raster editing to an open-source, native application written entirely in Rust.\n\nFeaturing layers, masks, curves, adjustment layers, typography, vector shapes and customizable brush engines with PSD compatibility. Works completely offline with zero telemetry and zero cloud round-trips.",
+  "developer": "ArtCraft / Storytold",
+  "icon": "https://getartcraft.com/images/apps/photocraft/icon.webp",
+  "screenshots": [
+    {
+      "full": "https://getartcraft.com/images/apps/photocraft/og.jpg",
+      "thumb": "https://getartcraft.com/images/apps/photocraft/og.jpg"
+    }
+  ],
+  "categories": [
+    "Graphics & Design"
+  ],
+  "tags": [
+    "craft",
+    "storytold",
+    "artcraft suite",
+    "craft suite",
+    "artcraft",
+    "photo editor",
+    "raster",
+    "layers",
+    "masks",
+    "brushes",
+    "rust"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "linux",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "repo": "https://github.com/storytold/photocraft",
+  "homepage": "https://getartcraft.com/apps/photocraft",
+  "stars": 2400,
+  "version": "0.4.0",
+  "updated": "2026-10-15",
+  "replaces": [
+    "Adobe Photoshop",
+    "Paint Shop Pro",
+    "Corel Photo-Paint",
+    "Affinity Photo"
+  ],
+  "install": [
+    {
+      "platform": "source",
+      "distro": "source",
+      "manager": "source",
+      "label": "Cargo / Build from source",
+      "url": "https://github.com/storytold/photocraft",
+      "command": "git clone https://github.com/storytold/photocraft.git && cd photocraft && cargo run --release -p photocraft",
+      "note": "Pure Rust native app. Also compiles to WebAssembly."
+    }
+  ],
+  "sources": [
+    "curated",
+    "artcraft"
+  ],
+  "featured": true
+});
