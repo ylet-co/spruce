@@ -17,3 +17,15 @@ Double-clicking `index.html` works. For the most reliable result serve the folde
 - `data/index.json`: compact catalog index. `data/apps/<first letter>/<id>.json`: one record per app
 
 Saved apps and theme live in localStorage. Any static host works (no rewrites needed).
+
+## Link previews (Discord, WhatsApp, X)
+Preview crawlers need absolute URLs and do not run JavaScript. After you know your domain, run once:
+
+    # Mac / Linux / Git Bash
+    sed -i 's#https://YOUR-DOMAIN#https://your-real-domain.com#g' *.html
+
+    # Windows PowerShell
+    Get-ChildItem *.html | ForEach-Object { (Get-Content $_) -replace 'https://YOUR-DOMAIN','https://your-real-domain.com' | Set-Content $_ }
+
+## Clean URLs
+`vercel.json` turns on `cleanUrls`, so `/index.html` becomes `/`, `/browse.html` becomes `/browse`, and `/app.html?id=gimp` becomes `/app?id=gimp`. Old `.html` links redirect automatically. If you host elsewhere, enable the same option (GitHub Pages already serves extensionless URLs).
