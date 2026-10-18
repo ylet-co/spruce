@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.swp
+.idea/
+.vscode/
+
+# Deliberately empty of build output: Spruce has no build step, and the catalog
+# in data/ IS the site - it is committed on purpose. If a generator is ever
+# added, list only its caches here, never its output.
